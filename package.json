@@ -1,0 +1,15 @@
+{
+  "name": "todo-micro-frontend",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "concurrently \"yarn:run:*\"",
+    "run:root": "cd root && yarn && yarn build && yarn preview",
+    "run:form": "cd form && yarn && yarn build && yarn preview",
+    "run:list": "cd list && yarn && yarn build && yarn preview"
+  },
+  "author": "oHTGo <nguyennhathuy.orit@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^7.1.0"
+  }
+}
