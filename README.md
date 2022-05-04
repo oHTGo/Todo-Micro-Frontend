@@ -2,6 +2,10 @@
 
 This repository is a Todo list app using micro-frontend.
 
+## Demo
+
+![](./.github/video/demo.gif)
+
 ## Tech Stack
 
 - Garfish: a library for creating micro-frontend apps
